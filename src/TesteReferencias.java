@@ -2,6 +2,8 @@ public class TesteReferencias {
     public static void main(String[] args) {
         Conta primeiraConta = new Conta(); //a primeiraConta é uma flecha para uma conta, uma referencia para objeto Conta
         primeiraConta.saldo = 300;
+        primeiraConta.titular = "Maria Lima";
+
 
         Conta segundaConta = primeiraConta; //duas referencias pro mesmo objeto
 
